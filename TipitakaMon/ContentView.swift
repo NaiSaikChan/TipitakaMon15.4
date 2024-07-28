@@ -8,14 +8,42 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+    
+    init() {
+            let appearance = UITabBarAppearance()
+        appearance.backgroundColor = UIColor.clear // Customize the tab bar color
+            
+            UITabBar.appearance().scrollEdgeAppearance = appearance
+            UITabBar.appearance().standardAppearance = appearance
         }
-        .padding()
+    
+    @State private var selectedTab = 0
+    
+    var body: some View {
+        VStack{
+            // TabView with three tabs
+            TabView(selection: $selectedTab){
+                vinyanaView()
+                    .tabItem {
+                    Label("Vinyana", systemImage: "text.book.closed.fill")
+                }
+                .tag(0)
+                
+               sutaView()
+                .tabItem {
+                        Image(systemName: "text.book.closed.fill")
+                        Text("Suta")
+                    }
+                    .tag(1)
+                
+                abidhawView()
+                .tabItem {
+                        Image(systemName: "text.book.closed.fill")
+                        Text("Abidhaw")
+                    }
+                    .tag(3)
+            }
+        }
     }
 }
 

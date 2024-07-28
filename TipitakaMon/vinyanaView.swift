@@ -1,5 +1,5 @@
 //
-//  OrderView.swift
+//  vinyanaView.swift
 //  TipitakaMon
 //
 //  Created by Silarcara on 28/7/24.
@@ -7,12 +7,21 @@
 
 import SwiftUI
 
-struct OrderView: View {
+struct vinyanaView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        NavigationStack{
+            Form{
+                Section{
+                    Text("Pali1")
+                }
+            }
+                .navigationTitle("Vinyana")
+        }
     }
 }
+    
 
 #Preview {
-    OrderView()
+    vinyanaView()
 }
