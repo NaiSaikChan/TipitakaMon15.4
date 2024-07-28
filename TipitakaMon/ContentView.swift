@@ -20,6 +20,7 @@ struct ContentView: View {
     @State private var selectedTab = 0
     
     var body: some View {
+        
         VStack{
             // TabView with three tabs
             TabView(selection: $selectedTab){
@@ -29,17 +30,23 @@ struct ContentView: View {
                 }
                 .tag(0)
                 
-               sutaView()
+                SuttaViewL()
                 .tabItem {
                     Label("သုတ်", systemImage: "text.book.closed.fill")
                     }
                     .tag(1)
                 
-                abidhawView()
+                Abhidhamma()
                 .tabItem {
                     Label("အဘိဓရ်", systemImage: "text.book.closed.fill")
                     }
                     .tag(3)
+                
+                infoView()
+                .tabItem {
+                    Label("ဂလာန်", systemImage: "info.circle.fill")
+                    }
+                    .tag(4)
             }.font(.custom("Pyidaungsu", size: 14))
         }
     }
