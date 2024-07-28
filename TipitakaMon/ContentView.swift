@@ -25,24 +25,22 @@ struct ContentView: View {
             TabView(selection: $selectedTab){
                 vinyanaView()
                     .tabItem {
-                    Label("Vinyana", systemImage: "text.book.closed.fill")
+                    Label("ဝိနယ်", systemImage: "text.book.closed.fill")
                 }
                 .tag(0)
                 
                sutaView()
                 .tabItem {
-                        Image(systemName: "text.book.closed.fill")
-                        Text("Suta")
+                    Label("သုတ်", systemImage: "text.book.closed.fill")
                     }
                     .tag(1)
                 
                 abidhawView()
                 .tabItem {
-                        Image(systemName: "text.book.closed.fill")
-                        Text("Abidhaw")
+                    Label("အဘိဓရ်", systemImage: "text.book.closed.fill")
                     }
                     .tag(3)
-            }
+            }.font(.custom("Pyidaungsu", size: 14))
         }
     }
 }
