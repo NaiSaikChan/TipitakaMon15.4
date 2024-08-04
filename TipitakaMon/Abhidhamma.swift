@@ -9,61 +9,73 @@
 import SwiftUI
 import PDFViewer
 
-struct AbhidhammaBasket: Identifiable {
-    
-    var id = UUID()
-    var title: String;
-    var subtitle: String;
-    var imageName: String;
-    var fileName: String
-}
 
-// VinayaBasket 5 books
-
-let dataAbhidhamma = [
-    AbhidhammaBasket(title: "ပါဠိဓမ္မသၚ်္ဂဏဳ ဘာသာမန်", subtitle: "မူဆဋ္ဌသံဂါယန အဘိဓမ္မပိဋကတ် ခုဒ္ဒကနိကာယ်", imageName: "TripitakaMon28", fileName: Bundle.main.path(forResource: "ပါဠိဓမ္မသၚ်္ဂဏဳ ဘာသာမန်", ofType: "pdf")!),
-    AbhidhammaBasket(title: "ပါဠိဝိဘၚ် ဘာသာမန် (ကၞပ် ပ+ဒု)", subtitle: "မူဆဋ္ဌသံဂါယန အဘိဓမ္မပိဋကတ် ခုဒ္ဒကနိကာယ်", imageName: "TripitakaMon27", fileName: Bundle.main.path(forResource: "ပါဠိဝိဘၚ် ဘာသာမန် (ကၞပ် ပ+ဒု)", ofType: "pdf")!),
-    AbhidhammaBasket(title: "ပါဠိကထာဝတ္ထု ဘာသာမန် (ကၞပ်ပထမ)", subtitle: "မူဆဋ္ဌသံဂါယန အဘိဓမ္မပိဋကတ် ခုဒ္ဒကနိကာယ်", imageName: "TripitakaMon25", fileName: Bundle.main.path(forResource: "ပါဠိကထာဝတ္ထု ဘာသာမန် (ကၞပ်ပထမ)", ofType: "pdf")!),
-    AbhidhammaBasket(title: "ပါဠိကထာဝတ္ထု ဘာသာမန် (ကၞပ်ဒုတိယ)", subtitle: "မူဆဋ္ဌသံဂါယန အဘိဓမ္မပိဋကတ် ခုဒ္ဒကနိကာယ်", imageName: "TripitakaMon26", fileName: Bundle.main.path(forResource: "ပါဠိကထာဝတ္ထု ဘာသာမန် (ကၞပ်ဒုတိယ)", ofType: "pdf")!),
-    AbhidhammaBasket(title: "ပါဠိပုဂ္ဂလပညပ် ဘာသာမန်", subtitle: "မူဆဋ္ဌသံဂါယန အဘိဓမ္မပိဋကတ် ခုဒ္ဒကနိကာယ်", imageName: "TripitakaMon11", fileName: Bundle.main.path(forResource: "ပါဠိပုဂ္ဂလပညပ် ဘာသာမန်", ofType: "pdf")!)
-]
-
-struct Abhidhamma : View {
-    
-    //var Abhidhamma = [dataAbhidhamma]
-    var Abhid : [AbhidhammaBasket] = dataAbhidhamma
-    
-    var body : some View{
+struct Abhidhamma : View, DownloadManagerDelegate {
         
-        NavigationView{
-            
-            List{
-                ForEach(Abhid) { item in
-                    Section(header: Text(item.subtitle)){
-                        NavigationLink(destination: PDFViewer(pdfName: item.title, pdfUrlString: item.fileName)){
-                            Label(
-                                title: {
-                                    Text(item.title)
-                                        .font(.custom("Pyidaungsu", size: 18))
-                                        .font(.title)
-                                        .padding(10)
-                                        .bold()
-                                    
-                                },
-                                icon: { Image(item.imageName)
-                                        .resizable()
-                                        .frame(width: 60, height: 80)
-                                }
-                            )
-                        }
-                    }
-                }.font(.custom("MUA_Office_adobe", size: 12))
+        @State private var viewLocalPDF = false
+        @State private var viewRemotePDF = false
+        @State private var loadingPDF: Bool = false
+        @State private var progressValue: Float = 0.0
+        @ObservedObject var downloadManager = DownloadManager.shared()
+        
+        func downloadDidFinished(success: Bool) {
+            if success {
+                loadingPDF = false
+                viewRemotePDF = true
             }
-            .navigationTitle("အဘိဓရ်")
-            .navigationBarTitleDisplayMode(.inline)
+        }
+        
+        func downloadDidFailed(failure: Bool) {
+            if failure {
+                loadingPDF = false
+                print("PDF Loading fail")
+            }
+        }
+        
+        func downloadInProgress(progress: Float, totalBytesWritten: Float, totalBytesExpectedToWrite: Float) {
+            loadingPDF = true
+            progressValue = progress
+        }
+        
+        
+        var Abhidhaw : [Basket] = AbhidhawBook
+        
+        var body: some View{
+            
+            NavigationView{
+                VStack{
+                    List{
+                        ForEach(Abhidhaw) { basket in
+                            Section(header: Text(basket.basketName)){
+                                ForEach(basket.bookTitle){ item in
+                                    NavigationLink(destination: PDFViewer(pdfName: item.title, pdfUrlString: item.fileName)){
+                                        Label(
+                                            title: {
+                                                Text(item.title)
+                                                    .font(.custom("Pyidaungsu", size: 18))
+                                                    .padding(10)
+                                                    .bold()
+                                                    .lineLimit(2)
+                                                
+                                            },
+                                            icon: { Image(item.imageName)
+                                                    .resizable()
+                                                    .frame(width: 60, height: 80)
+                                            }
+                                        )
+                                    } .ignoresSafeArea()
+                                }
+                            }
+                        }.font(.custom("MUA_Office_adobe", size: 12))
+                    }
+                    .navigationTitle("အဘိဓရ်")
+                    .navigationBarTitleDisplayMode(.inline)
+                    .phoneOnlyStackNavigationView()
+                }
+                ProgressView(value: self.$progressValue, visible: self.$loadingPDF)
+            }
         }
     }
-}
 
 struct Abhidhamma_Previews: PreviewProvider {
     static var previews: some View {

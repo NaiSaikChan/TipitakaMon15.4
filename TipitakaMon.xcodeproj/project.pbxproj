@@ -18,32 +18,32 @@
 		A205813D2C56AB4A0054F7F4 /* ပါဠိဓမ္မသၚ်္ဂဏဳ ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581372C56AB4A0054F7F4 /* ပါဠိဓမ္မသၚ်္ဂဏဳ ဘာသာမန်.pdf */; };
 		A205813E2C56AB4A0054F7F4 /* ပါဠိပုဂ္ဂလပညပ် ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581382C56AB4A0054F7F4 /* ပါဠိပုဂ္ဂလပညပ် ဘာသာမန်.pdf */; };
 		A205813F2C56AB4A0054F7F4 /* ပါဠိဝိဘၚ် ဘာသာမန် (ကၞပ် ပ+ဒု).pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581392C56AB4A0054F7F4 /* ပါဠိဝိဘၚ် ဘာသာမန် (ကၞပ် ပ+ဒု).pdf */; };
-		A20581582C56AB570054F7F4 /* TripitakaMon23.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581402C56AB570054F7F4 /* TripitakaMon23.pdf */; };
-		A20581592C56AB570054F7F4 /* TripitakaMon20.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581412C56AB570054F7F4 /* TripitakaMon20.pdf */; };
-		A205815A2C56AB570054F7F4 /* TripitakaMon24.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581422C56AB570054F7F4 /* TripitakaMon24.pdf */; };
-		A205815B2C56AB570054F7F4 /* TripitakaMon10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581432C56AB570054F7F4 /* TripitakaMon10.pdf */; };
-		A205815C2C56AB570054F7F4 /* TripitakaMon21.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581442C56AB570054F7F4 /* TripitakaMon21.pdf */; };
-		A205815D2C56AB570054F7F4 /* TripitakaMon22.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581452C56AB570054F7F4 /* TripitakaMon22.pdf */; };
-		A205815E2C56AB570054F7F4 /* TripitakaMon2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581472C56AB570054F7F4 /* TripitakaMon2.pdf */; };
-		A205815F2C56AB570054F7F4 /* TripitakaMon1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581482C56AB570054F7F4 /* TripitakaMon1.pdf */; };
-		A20581602C56AB570054F7F4 /* TripitakaMon3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581492C56AB570054F7F4 /* TripitakaMon3.pdf */; };
-		A20581612C56AB570054F7F4 /* TripitakaMon8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205814B2C56AB570054F7F4 /* TripitakaMon8.pdf */; };
-		A20581622C56AB570054F7F4 /* TripitakaMon7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205814C2C56AB570054F7F4 /* TripitakaMon7.pdf */; };
-		A20581632C56AB570054F7F4 /* TripitakaMon9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205814D2C56AB570054F7F4 /* TripitakaMon9.pdf */; };
-		A20581642C56AB570054F7F4 /* TripitakaMon14.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205814F2C56AB570054F7F4 /* TripitakaMon14.pdf */; };
-		A20581652C56AB570054F7F4 /* TripitakaMon13.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581502C56AB570054F7F4 /* TripitakaMon13.pdf */; };
-		A20581662C56AB570054F7F4 /* TripitakaMon12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581512C56AB570054F7F4 /* TripitakaMon12.pdf */; };
-		A20581672C56AB570054F7F4 /* TripitakaMon6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581532C56AB570054F7F4 /* TripitakaMon6.pdf */; };
-		A20581682C56AB570054F7F4 /* TripitakaMon5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581542C56AB570054F7F4 /* TripitakaMon5.pdf */; };
-		A20581692C56AB570054F7F4 /* TripitakaMon4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581552C56AB570054F7F4 /* TripitakaMon4.pdf */; };
+		A20581582C56AB570054F7F4 /* ပါဠိခုဒ္ဒကပါဋ္ဌ ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581402C56AB570054F7F4 /* ပါဠိခုဒ္ဒကပါဋ္ဌ ဘာသာမန်.pdf */; };
+		A20581592C56AB570054F7F4 /* ပါဠိထေရထေရဳဂါထာ ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581412C56AB570054F7F4 /* ပါဠိထေရထေရဳဂါထာ ဘာသာမန်.pdf */; };
+		A205815A2C56AB570054F7F4 /* ပါဠိထေရာပဒါန် ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581422C56AB570054F7F4 /* ပါဠိထေရာပဒါန် ဘာသာမန်.pdf */; };
+		A205815B2C56AB570054F7F4 /* ပါဠိပဋိသမ္ဘီဒါမဂ် ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581432C56AB570054F7F4 /* ပါဠိပဋိသမ္ဘီဒါမဂ် ဘာသာမန်.pdf */; };
+		A205815C2C56AB570054F7F4 /* ပါဠိမိလိန္ဒပဉှာ ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581442C56AB570054F7F4 /* ပါဠိမိလိန္ဒပဉှာ ဘာသာမန်.pdf */; };
+		A205815D2C56AB570054F7F4 /* ပါဠိဝိမာန ကေုာံ ပေတဝတ္ထု ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581452C56AB570054F7F4 /* ပါဠိဝိမာန ကေုာံ ပေတဝတ္ထု ဘာသာမန်.pdf */; };
+		A205815E2C56AB570054F7F4 /* ပါဠိပါထိကဝဂ် ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581472C56AB570054F7F4 /* ပါဠိပါထိကဝဂ် ဘာသာမန်.pdf */; };
+		A205815F2C56AB570054F7F4 /* ပါဠိမဟာဝဂ္ဂ ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581482C56AB570054F7F4 /* ပါဠိမဟာဝဂ္ဂ ဘာသာမန်.pdf */; };
+		A20581602C56AB570054F7F4 /* ပါဠိသဳလက္ခန္ဓဝဂ္ဂ ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581492C56AB570054F7F4 /* ပါဠိသဳလက္ခန္ဓဝဂ္ဂ ဘာသာမန်.pdf */; };
+		A20581612C56AB570054F7F4 /* ပါဠိမဇ္ၛိမပဏ္ဏာသ ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205814B2C56AB570054F7F4 /* ပါဠိမဇ္ၛိမပဏ္ဏာသ ဘာသာမန်.pdf */; };
+		A20581622C56AB570054F7F4 /* ပါဠိမူလပဏ္ဏာသ ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205814C2C56AB570054F7F4 /* ပါဠိမူလပဏ္ဏာသ ဘာသာမန်.pdf */; };
+		A20581632C56AB570054F7F4 /* ပါဠိဥပရိပဏ္ဏာသ ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205814D2C56AB570054F7F4 /* ပါဠိဥပရိပဏ္ဏာသ ဘာသာမန်.pdf */; };
+		A20581642C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်တတိယ).pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205814F2C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်တတိယ).pdf */; };
+		A20581652C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ဒုတိယ).pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581502C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ဒုတိယ).pdf */; };
+		A20581662C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ပထမ).pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581512C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ပထမ).pdf */; };
+		A20581672C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်တတိယ).pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581532C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်တတိယ).pdf */; };
+		A20581682C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်ဒုတိယ).pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581542C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်ဒုတိယ).pdf */; };
+		A20581692C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်ပထမ).pdf in Resources */ = {isa = PBXBuildFile; fileRef = A20581552C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်ပထမ).pdf */; };
 		A20581702C56AB610054F7F4 /* ပါဠိစူဠဝဝ် ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205816A2C56AB610054F7F4 /* ပါဠိစူဠဝဝ် ဘာသာမန်.pdf */; };
 		A20581712C56AB610054F7F4 /* ပါဠိပရိဝရ် ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205816B2C56AB610054F7F4 /* ပါဠိပရိဝရ် ဘာသာမန်.pdf */; };
 		A20581722C56AB610054F7F4 /* ပါဠိပါရာဇိကဏ် ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205816C2C56AB610054F7F4 /* ပါဠိပါရာဇိကဏ် ဘာသာမန်.pdf */; };
 		A20581732C56AB610054F7F4 /* ပါဠိပါဲစိုတ် ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205816D2C56AB610054F7F4 /* ပါဠိပါဲစိုတ် ဘာသာမန်.pdf */; };
 		A20581742C56AB610054F7F4 /* ပါဠိမဟာဝဂ် ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205816E2C56AB610054F7F4 /* ပါဠိမဟာဝဂ် ဘာသာမန်.pdf */; };
-		A20581772C56DC190054F7F4 /* SuttaViewL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20581762C56DC190054F7F4 /* SuttaViewL.swift */; };
 		A20581792C56E69C0054F7F4 /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20581782C56E69C0054F7F4 /* infoView.swift */; };
 		A205817B2C56E76B0054F7F4 /* Abhidhamma.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205817A2C56E76B0054F7F4 /* Abhidhamma.swift */; };
+		A2C84E3A2C5FCCE40046265A /* pitakaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E392C5FCCE40046265A /* pitakaData.swift */; };
 		A2D7CC5E2C551FD1009DC4FF /* TipitakaMonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7CC5D2C551FD1009DC4FF /* TipitakaMonApp.swift */; };
 		A2D7CC602C551FD1009DC4FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7CC5F2C551FD1009DC4FF /* ContentView.swift */; };
 		A2D7CC622C551FD2009DC4FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D7CC612C551FD2009DC4FF /* Assets.xcassets */; };
@@ -63,33 +63,33 @@
 		A20581372C56AB4A0054F7F4 /* ပါဠိဓမ္မသၚ်္ဂဏဳ ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိဓမ္မသၚ်္ဂဏဳ ဘာသာမန်.pdf"; sourceTree = "<group>"; };
 		A20581382C56AB4A0054F7F4 /* ပါဠိပုဂ္ဂလပညပ် ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိပုဂ္ဂလပညပ် ဘာသာမန်.pdf"; sourceTree = "<group>"; };
 		A20581392C56AB4A0054F7F4 /* ပါဠိဝိဘၚ် ဘာသာမန် (ကၞပ် ပ+ဒု).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိဝိဘၚ် ဘာသာမန် (ကၞပ် ပ+ဒု).pdf"; sourceTree = "<group>"; };
-		A20581402C56AB570054F7F4 /* TripitakaMon23.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon23.pdf; sourceTree = "<group>"; };
-		A20581412C56AB570054F7F4 /* TripitakaMon20.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon20.pdf; sourceTree = "<group>"; };
-		A20581422C56AB570054F7F4 /* TripitakaMon24.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon24.pdf; sourceTree = "<group>"; };
-		A20581432C56AB570054F7F4 /* TripitakaMon10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon10.pdf; sourceTree = "<group>"; };
-		A20581442C56AB570054F7F4 /* TripitakaMon21.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon21.pdf; sourceTree = "<group>"; };
-		A20581452C56AB570054F7F4 /* TripitakaMon22.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon22.pdf; sourceTree = "<group>"; };
-		A20581472C56AB570054F7F4 /* TripitakaMon2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon2.pdf; sourceTree = "<group>"; };
-		A20581482C56AB570054F7F4 /* TripitakaMon1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon1.pdf; sourceTree = "<group>"; };
-		A20581492C56AB570054F7F4 /* TripitakaMon3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon3.pdf; sourceTree = "<group>"; };
-		A205814B2C56AB570054F7F4 /* TripitakaMon8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon8.pdf; sourceTree = "<group>"; };
-		A205814C2C56AB570054F7F4 /* TripitakaMon7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon7.pdf; sourceTree = "<group>"; };
-		A205814D2C56AB570054F7F4 /* TripitakaMon9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon9.pdf; sourceTree = "<group>"; };
-		A205814F2C56AB570054F7F4 /* TripitakaMon14.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon14.pdf; sourceTree = "<group>"; };
-		A20581502C56AB570054F7F4 /* TripitakaMon13.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon13.pdf; sourceTree = "<group>"; };
-		A20581512C56AB570054F7F4 /* TripitakaMon12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon12.pdf; sourceTree = "<group>"; };
-		A20581532C56AB570054F7F4 /* TripitakaMon6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon6.pdf; sourceTree = "<group>"; };
-		A20581542C56AB570054F7F4 /* TripitakaMon5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon5.pdf; sourceTree = "<group>"; };
-		A20581552C56AB570054F7F4 /* TripitakaMon4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TripitakaMon4.pdf; sourceTree = "<group>"; };
+		A20581402C56AB570054F7F4 /* ပါဠိခုဒ္ဒကပါဋ္ဌ ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိခုဒ္ဒကပါဋ္ဌ ဘာသာမန်.pdf"; sourceTree = "<group>"; };
+		A20581412C56AB570054F7F4 /* ပါဠိထေရထေရဳဂါထာ ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိထေရထေရဳဂါထာ ဘာသာမန်.pdf"; sourceTree = "<group>"; };
+		A20581422C56AB570054F7F4 /* ပါဠိထေရာပဒါန် ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိထေရာပဒါန် ဘာသာမန်.pdf"; sourceTree = "<group>"; };
+		A20581432C56AB570054F7F4 /* ပါဠိပဋိသမ္ဘီဒါမဂ် ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိပဋိသမ္ဘီဒါမဂ် ဘာသာမန်.pdf"; sourceTree = "<group>"; };
+		A20581442C56AB570054F7F4 /* ပါဠိမိလိန္ဒပဉှာ ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိမိလိန္ဒပဉှာ ဘာသာမန်.pdf"; sourceTree = "<group>"; };
+		A20581452C56AB570054F7F4 /* ပါဠိဝိမာန ကေုာံ ပေတဝတ္ထု ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိဝိမာန ကေုာံ ပေတဝတ္ထု ဘာသာမန်.pdf"; sourceTree = "<group>"; };
+		A20581472C56AB570054F7F4 /* ပါဠိပါထိကဝဂ် ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိပါထိကဝဂ် ဘာသာမန်.pdf"; sourceTree = "<group>"; };
+		A20581482C56AB570054F7F4 /* ပါဠိမဟာဝဂ္ဂ ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိမဟာဝဂ္ဂ ဘာသာမန်.pdf"; sourceTree = "<group>"; };
+		A20581492C56AB570054F7F4 /* ပါဠိသဳလက္ခန္ဓဝဂ္ဂ ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိသဳလက္ခန္ဓဝဂ္ဂ ဘာသာမန်.pdf"; sourceTree = "<group>"; };
+		A205814B2C56AB570054F7F4 /* ပါဠိမဇ္ၛိမပဏ္ဏာသ ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိမဇ္ၛိမပဏ္ဏာသ ဘာသာမန်.pdf"; sourceTree = "<group>"; };
+		A205814C2C56AB570054F7F4 /* ပါဠိမူလပဏ္ဏာသ ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိမူလပဏ္ဏာသ ဘာသာမန်.pdf"; sourceTree = "<group>"; };
+		A205814D2C56AB570054F7F4 /* ပါဠိဥပရိပဏ္ဏာသ ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိဥပရိပဏ္ဏာသ ဘာသာမန်.pdf"; sourceTree = "<group>"; };
+		A205814F2C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်တတိယ).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်တတိယ).pdf"; sourceTree = "<group>"; };
+		A20581502C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ဒုတိယ).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ဒုတိယ).pdf"; sourceTree = "<group>"; };
+		A20581512C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ပထမ).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ပထမ).pdf"; sourceTree = "<group>"; };
+		A20581532C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်တတိယ).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်တတိယ).pdf"; sourceTree = "<group>"; };
+		A20581542C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်ဒုတိယ).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်ဒုတိယ).pdf"; sourceTree = "<group>"; };
+		A20581552C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်ပထမ).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်ပထမ).pdf"; sourceTree = "<group>"; };
 		A205816A2C56AB610054F7F4 /* ပါဠိစူဠဝဝ် ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိစူဠဝဝ် ဘာသာမန်.pdf"; sourceTree = "<group>"; };
 		A205816B2C56AB610054F7F4 /* ပါဠိပရိဝရ် ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိပရိဝရ် ဘာသာမန်.pdf"; sourceTree = "<group>"; };
 		A205816C2C56AB610054F7F4 /* ပါဠိပါရာဇိကဏ် ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိပါရာဇိကဏ် ဘာသာမန်.pdf"; sourceTree = "<group>"; };
 		A205816D2C56AB610054F7F4 /* ပါဠိပါဲစိုတ် ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိပါဲစိုတ် ဘာသာမန်.pdf"; sourceTree = "<group>"; };
 		A205816E2C56AB610054F7F4 /* ပါဠိမဟာဝဂ် ဘာသာမန်.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ပါဠိမဟာဝဂ် ဘာသာမန်.pdf"; sourceTree = "<group>"; };
 		A20581752C56AC4C0054F7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		A20581762C56DC190054F7F4 /* SuttaViewL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuttaViewL.swift; sourceTree = "<group>"; };
 		A20581782C56E69C0054F7F4 /* infoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
 		A205817A2C56E76B0054F7F4 /* Abhidhamma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abhidhamma.swift; sourceTree = "<group>"; };
+		A2C84E392C5FCCE40046265A /* pitakaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pitakaData.swift; sourceTree = "<group>"; };
 		A2D7CC5A2C551FD1009DC4FF /* TipitakaMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipitakaMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D7CC5D2C551FD1009DC4FF /* TipitakaMonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipitakaMonApp.swift; sourceTree = "<group>"; };
 		A2D7CC5F2C551FD1009DC4FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -180,24 +180,24 @@
 		A20581572C56AB570054F7F4 /* Sutta */ = {
 			isa = PBXGroup;
 			children = (
-				A20581402C56AB570054F7F4 /* TripitakaMon23.pdf */,
-				A20581412C56AB570054F7F4 /* TripitakaMon20.pdf */,
-				A20581422C56AB570054F7F4 /* TripitakaMon24.pdf */,
-				A20581432C56AB570054F7F4 /* TripitakaMon10.pdf */,
-				A20581442C56AB570054F7F4 /* TripitakaMon21.pdf */,
-				A20581452C56AB570054F7F4 /* TripitakaMon22.pdf */,
-				A20581472C56AB570054F7F4 /* TripitakaMon2.pdf */,
-				A20581482C56AB570054F7F4 /* TripitakaMon1.pdf */,
-				A20581492C56AB570054F7F4 /* TripitakaMon3.pdf */,
-				A205814B2C56AB570054F7F4 /* TripitakaMon8.pdf */,
-				A205814C2C56AB570054F7F4 /* TripitakaMon7.pdf */,
-				A205814D2C56AB570054F7F4 /* TripitakaMon9.pdf */,
-				A205814F2C56AB570054F7F4 /* TripitakaMon14.pdf */,
-				A20581502C56AB570054F7F4 /* TripitakaMon13.pdf */,
-				A20581512C56AB570054F7F4 /* TripitakaMon12.pdf */,
-				A20581532C56AB570054F7F4 /* TripitakaMon6.pdf */,
-				A20581542C56AB570054F7F4 /* TripitakaMon5.pdf */,
-				A20581552C56AB570054F7F4 /* TripitakaMon4.pdf */,
+				A20581402C56AB570054F7F4 /* ပါဠိခုဒ္ဒကပါဋ္ဌ ဘာသာမန်.pdf */,
+				A20581412C56AB570054F7F4 /* ပါဠိထေရထေရဳဂါထာ ဘာသာမန်.pdf */,
+				A20581422C56AB570054F7F4 /* ပါဠိထေရာပဒါန် ဘာသာမန်.pdf */,
+				A20581432C56AB570054F7F4 /* ပါဠိပဋိသမ္ဘီဒါမဂ် ဘာသာမန်.pdf */,
+				A20581442C56AB570054F7F4 /* ပါဠိမိလိန္ဒပဉှာ ဘာသာမန်.pdf */,
+				A20581452C56AB570054F7F4 /* ပါဠိဝိမာန ကေုာံ ပေတဝတ္ထု ဘာသာမန်.pdf */,
+				A20581472C56AB570054F7F4 /* ပါဠိပါထိကဝဂ် ဘာသာမန်.pdf */,
+				A20581482C56AB570054F7F4 /* ပါဠိမဟာဝဂ္ဂ ဘာသာမန်.pdf */,
+				A20581492C56AB570054F7F4 /* ပါဠိသဳလက္ခန္ဓဝဂ္ဂ ဘာသာမန်.pdf */,
+				A205814B2C56AB570054F7F4 /* ပါဠိမဇ္ၛိမပဏ္ဏာသ ဘာသာမန်.pdf */,
+				A205814C2C56AB570054F7F4 /* ပါဠိမူလပဏ္ဏာသ ဘာသာမန်.pdf */,
+				A205814D2C56AB570054F7F4 /* ပါဠိဥပရိပဏ္ဏာသ ဘာသာမန်.pdf */,
+				A205814F2C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်တတိယ).pdf */,
+				A20581502C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ဒုတိယ).pdf */,
+				A20581512C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ပထမ).pdf */,
+				A20581532C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်တတိယ).pdf */,
+				A20581542C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်ဒုတိယ).pdf */,
+				A20581552C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်ပထမ).pdf */,
 				A20581462C56AB570054F7F4 /* ခုဒ္ဒကနိကာယ် */,
 				A205814A2C56AB570054F7F4 /* ဒဳဃနိကာယ် */,
 				A205814E2C56AB570054F7F4 /* မဇ္ၛိမနိကာယ် */,
@@ -242,12 +242,12 @@
 				A20581342C56AB310054F7F4 /* pdfBooks */,
 				A205812B2C56AAD90054F7F4 /* Fonts */,
 				A2D7CC5D2C551FD1009DC4FF /* TipitakaMonApp.swift */,
+				A2C84E392C5FCCE40046265A /* pitakaData.swift */,
 				A2D7CC5F2C551FD1009DC4FF /* ContentView.swift */,
 				A20581252C56888A0054F7F4 /* vinyanaView.swift */,
 				A205817A2C56E76B0054F7F4 /* Abhidhamma.swift */,
 				A20581272C56891A0054F7F4 /* sutaView.swift */,
 				A20581782C56E69C0054F7F4 /* infoView.swift */,
-				A20581762C56DC190054F7F4 /* SuttaViewL.swift */,
 				A2D7CC612C551FD2009DC4FF /* Assets.xcassets */,
 				A2D7CC632C551FD2009DC4FF /* Preview Content */,
 			);
@@ -328,38 +328,38 @@
 			files = (
 				A205813F2C56AB4A0054F7F4 /* ပါဠိဝိဘၚ် ဘာသာမန် (ကၞပ် ပ+ဒု).pdf in Resources */,
 				A20581322C56AAFB0054F7F4 /* Mon3Anonta1.ttf in Resources */,
-				A20581582C56AB570054F7F4 /* TripitakaMon23.pdf in Resources */,
+				A20581582C56AB570054F7F4 /* ပါဠိခုဒ္ဒကပါဋ္ဌ ဘာသာမန်.pdf in Resources */,
 				A205813E2C56AB4A0054F7F4 /* ပါဠိပုဂ္ဂလပညပ် ဘာသာမန်.pdf in Resources */,
-				A20581602C56AB570054F7F4 /* TripitakaMon3.pdf in Resources */,
-				A20581642C56AB570054F7F4 /* TripitakaMon14.pdf in Resources */,
-				A205815B2C56AB570054F7F4 /* TripitakaMon10.pdf in Resources */,
+				A20581602C56AB570054F7F4 /* ပါဠိသဳလက္ခန္ဓဝဂ္ဂ ဘာသာမန်.pdf in Resources */,
+				A20581642C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်တတိယ).pdf in Resources */,
+				A205815B2C56AB570054F7F4 /* ပါဠိပဋိသမ္ဘီဒါမဂ် ဘာသာမန်.pdf in Resources */,
 				A20581722C56AB610054F7F4 /* ပါဠိပါရာဇိကဏ် ဘာသာမန်.pdf in Resources */,
-				A20581692C56AB570054F7F4 /* TripitakaMon4.pdf in Resources */,
-				A20581652C56AB570054F7F4 /* TripitakaMon13.pdf in Resources */,
-				A20581662C56AB570054F7F4 /* TripitakaMon12.pdf in Resources */,
+				A20581692C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်ပထမ).pdf in Resources */,
+				A20581652C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ဒုတိယ).pdf in Resources */,
+				A20581662C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ပထမ).pdf in Resources */,
 				A20581332C56AAFB0054F7F4 /* Pyidaungsu-1.7_Bold.ttf in Resources */,
-				A20581592C56AB570054F7F4 /* TripitakaMon20.pdf in Resources */,
-				A205815A2C56AB570054F7F4 /* TripitakaMon24.pdf in Resources */,
+				A20581592C56AB570054F7F4 /* ပါဠိထေရထေရဳဂါထာ ဘာသာမန်.pdf in Resources */,
+				A205815A2C56AB570054F7F4 /* ပါဠိထေရာပဒါန် ဘာသာမန်.pdf in Resources */,
 				A205813D2C56AB4A0054F7F4 /* ပါဠိဓမ္မသၚ်္ဂဏဳ ဘာသာမန်.pdf in Resources */,
-				A205815F2C56AB570054F7F4 /* TripitakaMon1.pdf in Resources */,
-				A20581632C56AB570054F7F4 /* TripitakaMon9.pdf in Resources */,
+				A205815F2C56AB570054F7F4 /* ပါဠိမဟာဝဂ္ဂ ဘာသာမန်.pdf in Resources */,
+				A20581632C56AB570054F7F4 /* ပါဠိဥပရိပဏ္ဏာသ ဘာသာမန်.pdf in Resources */,
 				A20581312C56AAFB0054F7F4 /* MUA_Office_adobe.ttf in Resources */,
 				A20581712C56AB610054F7F4 /* ပါဠိပရိဝရ် ဘာသာမန်.pdf in Resources */,
-				A20581612C56AB570054F7F4 /* TripitakaMon8.pdf in Resources */,
+				A20581612C56AB570054F7F4 /* ပါဠိမဇ္ၛိမပဏ္ဏာသ ဘာသာမန်.pdf in Resources */,
 				A2D7CC652C551FD2009DC4FF /* Preview Assets.xcassets in Resources */,
-				A20581622C56AB570054F7F4 /* TripitakaMon7.pdf in Resources */,
-				A205815C2C56AB570054F7F4 /* TripitakaMon21.pdf in Resources */,
-				A20581672C56AB570054F7F4 /* TripitakaMon6.pdf in Resources */,
+				A20581622C56AB570054F7F4 /* ပါဠိမူလပဏ္ဏာသ ဘာသာမန်.pdf in Resources */,
+				A205815C2C56AB570054F7F4 /* ပါဠိမိလိန္ဒပဉှာ ဘာသာမန်.pdf in Resources */,
+				A20581672C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်တတိယ).pdf in Resources */,
 				A205813C2C56AB4A0054F7F4 /* ပါဠိကထာဝတ္ထု ဘာသာမန် (ကၞပ်ပထမ).pdf in Resources */,
 				A20581702C56AB610054F7F4 /* ပါဠိစူဠဝဝ် ဘာသာမန်.pdf in Resources */,
-				A20581682C56AB570054F7F4 /* TripitakaMon5.pdf in Resources */,
+				A20581682C56AB570054F7F4 /* ပါဠိအၚ်္ဂုတ္တိုရ် ဘာသာမန် (ကၞပ်ဒုတိယ).pdf in Resources */,
 				A20581732C56AB610054F7F4 /* ပါဠိပါဲစိုတ် ဘာသာမန်.pdf in Resources */,
-				A205815E2C56AB570054F7F4 /* TripitakaMon2.pdf in Resources */,
+				A205815E2C56AB570054F7F4 /* ပါဠိပါထိကဝဂ် ဘာသာမန်.pdf in Resources */,
 				A2D7CC622C551FD2009DC4FF /* Assets.xcassets in Resources */,
 				A205813B2C56AB4A0054F7F4 /* ပါဠိကထာဝတ္ထု ဘာသာမန် (ကၞပ်ဒုတိယ).pdf in Resources */,
 				A20581742C56AB610054F7F4 /* ပါဠိမဟာဝဂ် ဘာသာမန်.pdf in Resources */,
 				A20581302C56AAFB0054F7F4 /* Pyidaungsu-1.7_Regular.ttf in Resources */,
-				A205815D2C56AB570054F7F4 /* TripitakaMon22.pdf in Resources */,
+				A205815D2C56AB570054F7F4 /* ပါဠိဝိမာန ကေုာံ ပေတဝတ္ထု ဘာသာမန်.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +375,8 @@
 				A20581282C56891A0054F7F4 /* sutaView.swift in Sources */,
 				A2D7CC602C551FD1009DC4FF /* ContentView.swift in Sources */,
 				A2D7CC5E2C551FD1009DC4FF /* TipitakaMonApp.swift in Sources */,
-				A20581772C56DC190054F7F4 /* SuttaViewL.swift in Sources */,
 				A205817B2C56E76B0054F7F4 /* Abhidhamma.swift in Sources */,
+				A2C84E3A2C5FCCE40046265A /* pitakaData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20;
 				DEVELOPMENT_ASSET_PATHS = "\"TipitakaMon/Preview Content\"";
 				DEVELOPMENT_TEAM = 86SZC8RRQ7;
 				ENABLE_PREVIEWS = YES;
@@ -520,7 +520,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -544,7 +544,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20;
 				DEVELOPMENT_ASSET_PATHS = "\"TipitakaMon/Preview Content\"";
 				DEVELOPMENT_TEAM = 86SZC8RRQ7;
 				ENABLE_PREVIEWS = YES;
@@ -556,7 +556,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
