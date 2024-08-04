@@ -28,6 +28,8 @@ struct Sutta_Basket: Identifiable {
     var subtitle: String;
     var imageName: String;
     var fileName: String
+    
+    static var `default` = Self(title: "ပါဠိသဳလက္ခန္ဓဝဂ္ဂ ဘာသာမန်", subtitle: "", imageName: "TripitakaMon3", fileName: Bundle.main.path(forResource: "TripitakaMon3", ofType: "pdf")!)
 }
 
 struct SuttaViewL: View {
@@ -62,6 +64,7 @@ struct SuttaViewL: View {
         ])
     ]
     
+    
     var body: some View {
         
         NavigationView{
@@ -84,6 +87,7 @@ struct SuttaViewL: View {
                                     }
                                     
                                 )
+                                
                             }
                         }
                     }.font(.custom("MUA_Office_adobe", size: 12))

@@ -15,6 +15,8 @@ struct VinayaBasket: Identifiable {
         var subtitle: String;
         var imageName: String;
         var fileName: String
+    
+    static var `default` = Self(title: "ပါဠိပါရာဇိကဏ် ဘာသာမန်", subtitle: "မူဆဋ္ဌသံဂါယန ဝိနယပိဋကတ် ခုဒ္ဒကနိကာယ်", imageName: "TripitakaMon16", fileName: Bundle.main.path(forResource: "ပါဠိပါရာဇိကဏ် ဘာသာမန်", ofType: "pdf")!)
 }
 
 // VinayaBasket 5 books
@@ -79,7 +81,7 @@ struct vinyanaView : View, DownloadManagerDelegate {
                                         .frame(width: 60, height: 80)
                                 }
                             )
-                        }
+                        } .ignoresSafeArea()
                     }
                 }.font(.custom("MUA_Office_adobe", size: 12))
             }

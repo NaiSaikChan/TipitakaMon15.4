@@ -21,34 +21,35 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack{
-            // TabView with three tabs
-            TabView(selection: $selectedTab){
-                vinyanaView()
-                    .tabItem {
-                    Label("ဝိနယ်", systemImage: "text.book.closed.fill")
+        
+        // TabView with three tabs
+        TabView(selection: $selectedTab){
+            vinyanaView()
+                .tabItem {
+                Label("ဝိနယ်", systemImage: "text.book.closed.fill")
+            }
+            .tag(0)
+            
+            sutaView()
+            .tabItem {
+                Label("သုတ်", systemImage: "text.book.closed.fill")
                 }
-                .tag(0)
-                
-                SuttaViewL()
-                .tabItem {
-                    Label("သုတ်", systemImage: "text.book.closed.fill")
-                    }
-                    .tag(1)
-                
-                Abhidhamma()
-                .tabItem {
-                    Label("အဘိဓရ်", systemImage: "text.book.closed.fill")
-                    }
-                    .tag(3)
-                
-                infoView()
-                .tabItem {
-                    Label("ဂလာန်", systemImage: "info.circle.fill")
-                    }
-                    .tag(4)
-            }.font(.custom("Pyidaungsu", size: 14))
-        }
+                .tag(1)
+            
+            Abhidhamma()
+            .tabItem {
+                Label("အဘိဓရ်", systemImage: "text.book.closed.fill")
+                }
+                .tag(3)
+            
+            infoView()
+            .tabItem {
+                Label("ဂလာန်", systemImage: "info.circle.fill")
+                }
+                .tag(4)
+        }.font(.custom("Pyidaungsu", size: 14))
+            .defaultAppStorage(.standard)
+        
     }
 }
 
