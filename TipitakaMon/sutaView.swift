@@ -54,10 +54,11 @@ struct sutaView : View, DownloadManagerDelegate {
                                         title: {
                                             Text(item.title)
                                                 .font(.custom("Pyidaungsu", size: 18))
-                                                .padding(10)
+                                                .multilineTextAlignment(.leading)
+                                                .padding(.horizontal, 10)
                                                 .bold()
                                                 .lineLimit(2)
-                                            
+                                                
                                         },
                                         icon: { Image(item.imageName)
                                                 .resizable()
@@ -69,7 +70,7 @@ struct sutaView : View, DownloadManagerDelegate {
                         }
                     }.font(.custom("Pyidaungsu", size: 12))
                 }
-                .navigationTitle("သုတ်")
+                .navigationTitle("သုတ္တန္တ ပိဋကတ်")
                 .navigationBarTitleDisplayMode(.inline)
                 .phoneOnlyStackNavigationView()
             }

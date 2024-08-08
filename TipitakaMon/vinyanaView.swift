@@ -35,18 +35,20 @@ struct vinyanaView : View, DownloadManagerDelegate {
         progressValue = progress
     }
     
-    
+    @State private var showInfoView = false
     var Vinaya : [Basket] = vinyanaBook
     
     var body: some View{
         
         NavigationView{
+            
             VStack{
                 List{
                     ForEach(Vinaya) { basket in
                         Section(header: Text(basket.basketName)){
                             ForEach(basket.bookTitle){ item in
                                 NavigationLink(destination: PDFViewer(pdfName: item.title, pdfUrlString: item.fileName)){
+                                    
                                     Label(
                                         title: {
                                             Text(item.title)
@@ -66,8 +68,9 @@ struct vinyanaView : View, DownloadManagerDelegate {
                         }
                     }.font(.custom("MUA_Office_adobe", size: 12))
                 }
-                .navigationTitle("ဝိိနယ်")
+                .navigationTitle("ဝိနယပိဋကတ်")
                 .navigationBarTitleDisplayMode(.inline)
+                
                 .phoneOnlyStackNavigationView()
             }
             ProgressView(value: self.$progressValue, visible: self.$loadingPDF)

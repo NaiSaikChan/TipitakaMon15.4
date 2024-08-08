@@ -44,11 +44,15 @@
 		A20581792C56E69C0054F7F4 /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20581782C56E69C0054F7F4 /* infoView.swift */; };
 		A205817B2C56E76B0054F7F4 /* Abhidhamma.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205817A2C56E76B0054F7F4 /* Abhidhamma.swift */; };
 		A2C84E3A2C5FCCE40046265A /* pitakaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E392C5FCCE40046265A /* pitakaData.swift */; };
+		A2C84E412C5FF3D00046265A /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E3B2C5FF3D00046265A /* ActivityViewController.swift */; };
+		A2C84E422C5FF3D00046265A /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E3C2C5FF3D00046265A /* DownloadManager.swift */; };
+		A2C84E432C5FF3D00046265A /* PDFReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E3D2C5FF3D00046265A /* PDFReaderView.swift */; };
+		A2C84E442C5FF3D00046265A /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E3E2C5FF3D00046265A /* PDFViewer.swift */; };
+		A2C84E452C5FF3D00046265A /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E3F2C5FF3D00046265A /* ProgressView.swift */; };
 		A2D7CC5E2C551FD1009DC4FF /* TipitakaMonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7CC5D2C551FD1009DC4FF /* TipitakaMonApp.swift */; };
 		A2D7CC602C551FD1009DC4FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7CC5F2C551FD1009DC4FF /* ContentView.swift */; };
 		A2D7CC622C551FD2009DC4FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D7CC612C551FD2009DC4FF /* Assets.xcassets */; };
 		A2D7CC652C551FD2009DC4FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D7CC642C551FD2009DC4FF /* Preview Assets.xcassets */; };
-		A2D7CC6D2C5521E1009DC4FF /* PDFViewer in Frameworks */ = {isa = PBXBuildFile; productRef = A2D7CC6C2C5521E1009DC4FF /* PDFViewer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +94,11 @@
 		A20581782C56E69C0054F7F4 /* infoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
 		A205817A2C56E76B0054F7F4 /* Abhidhamma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abhidhamma.swift; sourceTree = "<group>"; };
 		A2C84E392C5FCCE40046265A /* pitakaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pitakaData.swift; sourceTree = "<group>"; };
+		A2C84E3B2C5FF3D00046265A /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		A2C84E3C2C5FF3D00046265A /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		A2C84E3D2C5FF3D00046265A /* PDFReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFReaderView.swift; sourceTree = "<group>"; };
+		A2C84E3E2C5FF3D00046265A /* PDFViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
+		A2C84E3F2C5FF3D00046265A /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		A2D7CC5A2C551FD1009DC4FF /* TipitakaMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipitakaMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D7CC5D2C551FD1009DC4FF /* TipitakaMonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipitakaMonApp.swift; sourceTree = "<group>"; };
 		A2D7CC5F2C551FD1009DC4FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,7 +111,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2D7CC6D2C5521E1009DC4FF /* PDFViewer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +227,18 @@
 			path = Vinaya;
 			sourceTree = "<group>";
 		};
+		A2C84E402C5FF3D00046265A /* PDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				A2C84E3B2C5FF3D00046265A /* ActivityViewController.swift */,
+				A2C84E3C2C5FF3D00046265A /* DownloadManager.swift */,
+				A2C84E3D2C5FF3D00046265A /* PDFReaderView.swift */,
+				A2C84E3E2C5FF3D00046265A /* PDFViewer.swift */,
+				A2C84E3F2C5FF3D00046265A /* ProgressView.swift */,
+			);
+			path = PDFViewer;
+			sourceTree = "<group>";
+		};
 		A2D7CC512C551FD0009DC4FF = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +269,7 @@
 				A20581272C56891A0054F7F4 /* sutaView.swift */,
 				A20581782C56E69C0054F7F4 /* infoView.swift */,
 				A2D7CC612C551FD2009DC4FF /* Assets.xcassets */,
+				A2C84E402C5FF3D00046265A /* PDFViewer */,
 				A2D7CC632C551FD2009DC4FF /* Preview Content */,
 			);
 			path = TipitakaMon;
@@ -279,7 +300,6 @@
 			);
 			name = TipitakaMon;
 			packageProductDependencies = (
-				A2D7CC6C2C5521E1009DC4FF /* PDFViewer */,
 			);
 			productName = TipitakaMon;
 			productReference = A2D7CC5A2C551FD1009DC4FF /* TipitakaMon.app */;
@@ -310,7 +330,6 @@
 			);
 			mainGroup = A2D7CC512C551FD0009DC4FF;
 			packageReferences = (
-				A2D7CC6B2C5521E1009DC4FF /* XCRemoteSwiftPackageReference "PDFViewer" */,
 			);
 			productRefGroup = A2D7CC5B2C551FD1009DC4FF /* Products */;
 			projectDirPath = "";
@@ -370,12 +389,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C84E442C5FF3D00046265A /* PDFViewer.swift in Sources */,
 				A20581792C56E69C0054F7F4 /* infoView.swift in Sources */,
 				A20581262C56888A0054F7F4 /* vinyanaView.swift in Sources */,
 				A20581282C56891A0054F7F4 /* sutaView.swift in Sources */,
+				A2C84E412C5FF3D00046265A /* ActivityViewController.swift in Sources */,
+				A2C84E452C5FF3D00046265A /* ProgressView.swift in Sources */,
+				A2C84E432C5FF3D00046265A /* PDFReaderView.swift in Sources */,
 				A2D7CC602C551FD1009DC4FF /* ContentView.swift in Sources */,
 				A2D7CC5E2C551FD1009DC4FF /* TipitakaMonApp.swift in Sources */,
 				A205817B2C56E76B0054F7F4 /* Abhidhamma.swift in Sources */,
+				A2C84E422C5FF3D00046265A /* DownloadManager.swift in Sources */,
 				A2C84E3A2C5FCCE40046265A /* pitakaData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,25 +620,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A2D7CC6B2C5521E1009DC4FF /* XCRemoteSwiftPackageReference "PDFViewer" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rajubd49/PDFViewer";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A2D7CC6C2C5521E1009DC4FF /* PDFViewer */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A2D7CC6B2C5521E1009DC4FF /* XCRemoteSwiftPackageReference "PDFViewer" */;
-			productName = PDFViewer;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2D7CC522C551FD1009DC4FF /* Project object */;
 }
