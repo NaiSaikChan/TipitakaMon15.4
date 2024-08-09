@@ -49,8 +49,11 @@ struct ContentView: View {
                     
                 
             }
-//            .navigationTitle("ပိဋကတ်ဘာသာမန်")
             .toolbar(content: {
+                ToolbarItem(placement: .navigation){
+                    Text("ပါဠိပိဋကတ် ဘာသာမန်")
+                        .font(.custom("Pyidaungsu", size: 20))
+                }
                 ToolbarItem(placement: .navigationBarTrailing){
                     NavigationLink(destination: infoView()){
                         Image(systemName: "info.circle.fill")
@@ -58,11 +61,32 @@ struct ContentView: View {
                     }
                 }
             })
+            .background(
+                           NavigationBarModifier(
+                               titleFont: UIFont(name: "Pyidaungsu", size: 20) ?? UIFont.systemFont(ofSize: 20) // Adjust size as needed
+                           )
+                       )
         }
     }
 }
 
+struct NavigationBarModifier: UIViewControllerRepresentable {
 
+    let titleFont: UIFont
+
+    func makeUIViewController(context: Context) -> UIViewController {
+        let viewController = UIViewController()
+        let appearance = UINavigationBarAppearance()
+        appearance.titleTextAttributes = [
+            .font: titleFont
+        ]
+        UINavigationBar.appearance().standardAppearance = appearance
+        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        return viewController
+    }
+
+    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
+}
 
 
 #Preview {
