@@ -2,13 +2,13 @@
 //  ContentView.swift
 //  TipitakaMon
 //
-//  Created by Silarcara on 27/7/24.
+//  Created by Saik Chan on 27/7/24.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-
+    
     init() {
         let appearance = UITabBarAppearance()
         appearance.backgroundColor = UIColor.clear // Customize the tab bar color
@@ -17,12 +17,13 @@ struct ContentView: View {
         UITabBar.appearance().standardAppearance = appearance
     }
     
+    @State private var showBannerAd: Bool = true
     @State private var selectedTab = 0
     
     var body: some View {
         
         NavigationStack{
-           
+            
             VStack{
                 // TabView with three tabs
                 TabView(selection: $selectedTab){
@@ -46,7 +47,7 @@ struct ContentView: View {
                     
                     
                 }.font(.custom("Pyidaungsu", size: 12))
-                    
+                
                 
             }
             .toolbar(content: {
@@ -62,18 +63,32 @@ struct ContentView: View {
                 }
             })
             .background(
-                           NavigationBarModifier(
-                               titleFont: UIFont(name: "Pyidaungsu", size: 20) ?? UIFont.systemFont(ofSize: 20) // Adjust size as needed
-                           )
-                       )
+                NavigationBarModifier(
+                    titleFont: UIFont(name: "Pyidaungsu", size: 20) ?? UIFont.systemFont(ofSize: 20) // Adjust size as needed
+                )
+            )
+        }
+        //Google Admob
+        if showBannerAd {
+            BannerAdView()
+                .frame(width: UIScreen.main.bounds.width, height: 50)
+                .transition(.move(edge: .bottom))
+                .onAppear {
+                    // Schedule the banner to be removed after 30 seconds
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
+                        withAnimation {
+                            showBannerAd = false
+                        }
+                    }
+                }
         }
     }
 }
 
 struct NavigationBarModifier: UIViewControllerRepresentable {
-
+    
     let titleFont: UIFont
-
+    
     func makeUIViewController(context: Context) -> UIViewController {
         let viewController = UIViewController()
         let appearance = UINavigationBarAppearance()
@@ -84,7 +99,7 @@ struct NavigationBarModifier: UIViewControllerRepresentable {
         UINavigationBar.appearance().scrollEdgeAppearance = appearance
         return viewController
     }
-
+    
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
 }
 

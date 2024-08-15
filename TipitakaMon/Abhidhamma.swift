@@ -72,7 +72,7 @@ struct Abhidhamma : View, DownloadManagerDelegate {
                     .navigationBarTitleDisplayMode(.inline)
                     .phoneOnlyStackNavigationView()
                 }
-                ProgressView(value: self.$progressValue, visible: self.$loadingPDF)
+//                ProgressView(value: self.$progressValue, visible: self.$loadingPDF)
             }
         }
     }

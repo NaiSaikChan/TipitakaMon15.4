@@ -13,11 +13,11 @@ struct PDFReaderView : UIViewRepresentable {
     var pdfName: String = ""
     var pdfUrlString: String = ""
     var pdfType: PDFType = .local
-    var viewSize: CGSize = CGSize(width: 0.0, height: 0.0)
+    var viewSize: CGSize = CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
     let pdfThumbnailSize = CGSize(width: 40, height: 54)
-    let pdfView = PDFView()
+    let pdfView = PDFView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
     let activityView = UIActivityIndicatorView(style: .large)
-
+    
     public func makeCoordinator() -> Coordinator {
         Coordinator(self)
     }
@@ -49,12 +49,16 @@ struct PDFReaderView : UIViewRepresentable {
     private func preparePDFView(context: Context) -> PDFView {
         pdfView.displayDirection = .horizontal
         pdfView.usePageViewController(true)
-        pdfView.pageBreakMargins = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        pdfView.pageBreakMargins = UIEdgeInsets(top: 0, left: 0, bottom: 10, right: 0)
+        pdfView.pageBreakMargins.top = 0.0
+        pdfView.pageBreakMargins.bottom = 0.0
+        pdfView.pageShadowsEnabled = true
         pdfView.autoScales = true
+        
         
         if pdfType == .local {
             if let url = Bundle.main.url(forResource: pdfName, withExtension: "pdf"),
-                let document = PDFDocument(url: url) {
+               let document = PDFDocument(url: url) {
                 pdfView.document = document
             }
         } else {
@@ -68,13 +72,13 @@ struct PDFReaderView : UIViewRepresentable {
                 }
             }
         }
-   
+        
         thumbnailView(pdfView: pdfView, viewSize: viewSize)
         pageLabel(pdfView: pdfView, viewSize: viewSize)
         
         NotificationCenter.default.addObserver(context.coordinator, selector: #selector(context.coordinator.handlePageChange(notification:)), name: Notification.Name.PDFViewPageChanged, object: nil)
         NotificationCenter.default.addObserver(context.coordinator, selector: #selector(context.coordinator.handleAnnotationHit(notification:)), name: Notification.Name.PDFViewAnnotationHit, object: nil)
-
+        
         return pdfView
     }
     
@@ -93,7 +97,7 @@ struct PDFReaderView : UIViewRepresentable {
                 view.removeFromSuperview()
             }
         }
-        let pageNumberLabel = UILabel(frame: CGRect(x: viewSize.width - 88, y: 4, width: 80, height: 20))
+        let pageNumberLabel = UILabel(frame: CGRect(x: (viewSize.width - 88), y: 4, width: 80, height: 20))
         pageNumberLabel.font = UIFont.systemFont(ofSize: 14.0)
         pageNumberLabel.textAlignment = .right
         pageNumberLabel.text = String(format: "%@ of %d", pdfView.currentPage?.label ?? "0", pdfView.document?.pageCount ?? 0)

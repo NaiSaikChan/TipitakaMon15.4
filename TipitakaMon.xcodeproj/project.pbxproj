@@ -43,6 +43,8 @@
 		A20581742C56AB610054F7F4 /* ပါဠိမဟာဝဂ် ဘာသာမန်.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A205816E2C56AB610054F7F4 /* ပါဠိမဟာဝဂ် ဘာသာမန်.pdf */; };
 		A20581792C56E69C0054F7F4 /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20581782C56E69C0054F7F4 /* infoView.swift */; };
 		A205817B2C56E76B0054F7F4 /* Abhidhamma.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205817A2C56E76B0054F7F4 /* Abhidhamma.swift */; };
+		A20807A72C6B98CA00D3A2DE /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = A20807A62C6B98CA00D3A2DE /* GoogleMobileAds */; };
+		A29C3D662C6CD6A7003E43C0 /* bannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C3D652C6CD6A7003E43C0 /* bannerAdView.swift */; };
 		A2C84E3A2C5FCCE40046265A /* pitakaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E392C5FCCE40046265A /* pitakaData.swift */; };
 		A2C84E412C5FF3D00046265A /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E3B2C5FF3D00046265A /* ActivityViewController.swift */; };
 		A2C84E422C5FF3D00046265A /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E3C2C5FF3D00046265A /* DownloadManager.swift */; };
@@ -93,6 +95,7 @@
 		A20581752C56AC4C0054F7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A20581782C56E69C0054F7F4 /* infoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
 		A205817A2C56E76B0054F7F4 /* Abhidhamma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abhidhamma.swift; sourceTree = "<group>"; };
+		A29C3D652C6CD6A7003E43C0 /* bannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bannerAdView.swift; sourceTree = "<group>"; };
 		A2C84E392C5FCCE40046265A /* pitakaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pitakaData.swift; sourceTree = "<group>"; };
 		A2C84E3B2C5FF3D00046265A /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		A2C84E3C2C5FF3D00046265A /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
@@ -111,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20807A72C6B98CA00D3A2DE /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +266,7 @@
 				A20581342C56AB310054F7F4 /* pdfBooks */,
 				A205812B2C56AAD90054F7F4 /* Fonts */,
 				A2D7CC5D2C551FD1009DC4FF /* TipitakaMonApp.swift */,
+				A29C3D652C6CD6A7003E43C0 /* bannerAdView.swift */,
 				A2C84E392C5FCCE40046265A /* pitakaData.swift */,
 				A2D7CC5F2C551FD1009DC4FF /* ContentView.swift */,
 				A20581252C56888A0054F7F4 /* vinyanaView.swift */,
@@ -300,6 +305,7 @@
 			);
 			name = TipitakaMon;
 			packageProductDependencies = (
+				A20807A62C6B98CA00D3A2DE /* GoogleMobileAds */,
 			);
 			productName = TipitakaMon;
 			productReference = A2D7CC5A2C551FD1009DC4FF /* TipitakaMon.app */;
@@ -330,6 +336,7 @@
 			);
 			mainGroup = A2D7CC512C551FD0009DC4FF;
 			packageReferences = (
+				A20807A52C6B98C900D3A2DE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
 			);
 			productRefGroup = A2D7CC5B2C551FD1009DC4FF /* Products */;
 			projectDirPath = "";
@@ -393,6 +400,7 @@
 				A20581792C56E69C0054F7F4 /* infoView.swift in Sources */,
 				A20581262C56888A0054F7F4 /* vinyanaView.swift in Sources */,
 				A20581282C56891A0054F7F4 /* sutaView.swift in Sources */,
+				A29C3D662C6CD6A7003E43C0 /* bannerAdView.swift in Sources */,
 				A2C84E412C5FF3D00046265A /* ActivityViewController.swift in Sources */,
 				A2C84E452C5FF3D00046265A /* ProgressView.swift in Sources */,
 				A2C84E432C5FF3D00046265A /* PDFReaderView.swift in Sources */,
@@ -544,7 +552,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -580,7 +588,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -620,6 +628,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A20807A52C6B98C900D3A2DE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A20807A62C6B98CA00D3A2DE /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A20807A52C6B98C900D3A2DE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2D7CC522C551FD1009DC4FF /* Project object */;
 }

@@ -2,7 +2,7 @@
 //  vinyanaView.swift
 //  TipitakaMon
 //
-//  Created by Silarcara on 28/7/24.
+//  Created by Saik Chan on 28/7/24.
 //
 
 import SwiftUI
@@ -73,7 +73,6 @@ struct vinyanaView : View, DownloadManagerDelegate {
                 
                 .phoneOnlyStackNavigationView()
             }
-            ProgressView(value: self.$progressValue, visible: self.$loadingPDF)
         }
     }
 }
