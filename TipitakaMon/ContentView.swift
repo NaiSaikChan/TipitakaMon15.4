@@ -75,7 +75,7 @@ struct ContentView: View {
                 .transition(.move(edge: .bottom))
                 .onAppear {
                     // Schedule the banner to be removed after 30 seconds
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 180) {
                         withAnimation {
                             showBannerAd = false
                         }

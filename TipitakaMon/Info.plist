@@ -2,13 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Pyidaungsu-1.7_Regular.ttf</string>
-		<string>Pyidaungsu-1.7_Bold.ttf</string>
-		<string>MUA_Office_adobe.ttf</string>
-		<string>Mon3Anonta1.ttf</string>
-	</array>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-2824674932258413~1325114671</string>
 	<key>SKAdNetworkItems</key>
@@ -209,6 +202,13 @@
 			<key>SKAdNetworkIdentifier</key>
 			<string>3qcr597p9d.skadnetwork</string>
 		</dict>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Pyidaungsu-1.7_Regular.ttf</string>
+		<string>Pyidaungsu-1.7_Bold.ttf</string>
+		<string>MUA_Office_adobe.ttf</string>
+		<string>Mon3Anonta1.ttf</string>
 	</array>
 </dict>
 </plist>

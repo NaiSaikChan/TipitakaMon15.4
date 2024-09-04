@@ -1,6 +1,15 @@
 {
-  "originHash" : "3b9752ff554d5fdc91a7c01c2322a5d851b0979c36f02eb55188d9ab9e3d7e77",
+  "originHash" : "aefcdc09b6122f4bea2218bbaab88bd9b4db8fdea0ae2884dcbbae2d86fc482e",
   "pins" : [
+    {
+      "identity" : "pdfviewer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rajubd49/PDFViewer",
+      "state" : {
+        "revision" : "d228974c60fe723ad98b690611973184a934ad72",
+        "version" : "1.0.2"
+      }
+    },
     {
       "identity" : "swift-package-manager-google-mobile-ads",
       "kind" : "remoteSourceControl",

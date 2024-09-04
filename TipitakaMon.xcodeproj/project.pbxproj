@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71287C712C87B66900CCD67F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71287C702C87B66900CCD67F /* Launch Screen.storyboard */; };
 		A20581262C56888A0054F7F4 /* vinyanaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20581252C56888A0054F7F4 /* vinyanaView.swift */; };
 		A20581282C56891A0054F7F4 /* sutaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20581272C56891A0054F7F4 /* sutaView.swift */; };
 		A20581302C56AAFB0054F7F4 /* Pyidaungsu-1.7_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A205812C2C56AAFB0054F7F4 /* Pyidaungsu-1.7_Regular.ttf */; };
@@ -44,6 +45,7 @@
 		A20581792C56E69C0054F7F4 /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20581782C56E69C0054F7F4 /* infoView.swift */; };
 		A205817B2C56E76B0054F7F4 /* Abhidhamma.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205817A2C56E76B0054F7F4 /* Abhidhamma.swift */; };
 		A20807A72C6B98CA00D3A2DE /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = A20807A62C6B98CA00D3A2DE /* GoogleMobileAds */; };
+		A20ED0202C6E6DBD00B24E60 /* PDFViewer in Frameworks */ = {isa = PBXBuildFile; productRef = A20ED01F2C6E6DBD00B24E60 /* PDFViewer */; };
 		A29C3D662C6CD6A7003E43C0 /* bannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C3D652C6CD6A7003E43C0 /* bannerAdView.swift */; };
 		A2C84E3A2C5FCCE40046265A /* pitakaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E392C5FCCE40046265A /* pitakaData.swift */; };
 		A2C84E412C5FF3D00046265A /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C84E3B2C5FF3D00046265A /* ActivityViewController.swift */; };
@@ -58,6 +60,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71287C702C87B66900CCD67F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A20581252C56888A0054F7F4 /* vinyanaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vinyanaView.swift; sourceTree = "<group>"; };
 		A20581272C56891A0054F7F4 /* sutaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sutaView.swift; sourceTree = "<group>"; };
 		A205812C2C56AAFB0054F7F4 /* Pyidaungsu-1.7_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pyidaungsu-1.7_Regular.ttf"; sourceTree = "<group>"; };
@@ -115,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A20807A72C6B98CA00D3A2DE /* GoogleMobileAds in Frameworks */,
+				A20ED0202C6E6DBD00B24E60 /* PDFViewer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +277,7 @@
 				A205817A2C56E76B0054F7F4 /* Abhidhamma.swift */,
 				A20581272C56891A0054F7F4 /* sutaView.swift */,
 				A20581782C56E69C0054F7F4 /* infoView.swift */,
+				71287C702C87B66900CCD67F /* Launch Screen.storyboard */,
 				A2D7CC612C551FD2009DC4FF /* Assets.xcassets */,
 				A2C84E402C5FF3D00046265A /* PDFViewer */,
 				A2D7CC632C551FD2009DC4FF /* Preview Content */,
@@ -306,6 +311,7 @@
 			name = TipitakaMon;
 			packageProductDependencies = (
 				A20807A62C6B98CA00D3A2DE /* GoogleMobileAds */,
+				A20ED01F2C6E6DBD00B24E60 /* PDFViewer */,
 			);
 			productName = TipitakaMon;
 			productReference = A2D7CC5A2C551FD1009DC4FF /* TipitakaMon.app */;
@@ -337,6 +343,7 @@
 			mainGroup = A2D7CC512C551FD0009DC4FF;
 			packageReferences = (
 				A20807A52C6B98C900D3A2DE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				A20ED01E2C6E6DBD00B24E60 /* XCRemoteSwiftPackageReference "PDFViewer" */,
 			);
 			productRefGroup = A2D7CC5B2C551FD1009DC4FF /* Products */;
 			projectDirPath = "";
@@ -365,6 +372,7 @@
 				A20581662C56AB570054F7F4 /* ပါဠိသံယုတ် ဘာသာမန် (ကၞပ်ပထမ).pdf in Resources */,
 				A20581332C56AAFB0054F7F4 /* Pyidaungsu-1.7_Bold.ttf in Resources */,
 				A20581592C56AB570054F7F4 /* ပါဠိထေရထေရဳဂါထာ ဘာသာမန်.pdf in Resources */,
+				71287C712C87B66900CCD67F /* Launch Screen.storyboard in Resources */,
 				A205815A2C56AB570054F7F4 /* ပါဠိထေရာပဒါန် ဘာသာမန်.pdf in Resources */,
 				A205813D2C56AB4A0054F7F4 /* ပါဠိဓမ္မသၚ်္ဂဏဳ ဘာသာမန်.pdf in Resources */,
 				A205815F2C56AB570054F7F4 /* ပါဠိမဟာဝဂ္ဂ ဘာသာမန်.pdf in Resources */,
@@ -551,14 +559,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.minsitechan.mnw.tipitakamon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -587,14 +595,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.minsitechan.mnw.tipitakamon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -638,6 +646,14 @@
 				minimumVersion = 11.7.0;
 			};
 		};
+		A20ED01E2C6E6DBD00B24E60 /* XCRemoteSwiftPackageReference "PDFViewer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rajubd49/PDFViewer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -645,6 +661,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A20807A52C6B98C900D3A2DE /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
 			productName = GoogleMobileAds;
+		};
+		A20ED01F2C6E6DBD00B24E60 /* PDFViewer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A20ED01E2C6E6DBD00B24E60 /* XCRemoteSwiftPackageReference "PDFViewer" */;
+			productName = PDFViewer;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
